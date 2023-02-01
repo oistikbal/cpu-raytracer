@@ -1,0 +1,11 @@
+set(CPURAYTRACER_PROJECT_SRC
+	main.cpp
+)
+
+set(CPURAYTRACER_PROJECT_INC
+	main.cpp
+)
+
+
+add_executable(CpuRaytracer ${CPURAYTRACER_PROJECT_SRC} ${CPURAYTRACER_PROJECT_INC})
+set_property(GLOBAL PROPERTY VS_STARTUP_PROJECT CpuRaytracer)
