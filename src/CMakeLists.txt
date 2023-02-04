@@ -3,7 +3,6 @@ set(CPURAYTRACER_PROJECT_SRC
 )
 
 set(CPURAYTRACER_PROJECT_INC
-	main.cpp
 )
 
 
