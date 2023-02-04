@@ -3,6 +3,8 @@ set(CPURAYTRACER_PROJECT_SRC
 )
 
 set(CPURAYTRACER_PROJECT_INC
+	vec3.h
+	ray.h
 )
 
 
